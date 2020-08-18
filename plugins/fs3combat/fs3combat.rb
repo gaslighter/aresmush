@@ -90,6 +90,8 @@ module AresMUSH
            return CombatIdleCmd
          when "join"
            return CombatJoinCmd
+         when "thread"
+           return ThreadCmd
          when "leave"
            return CombatLeaveCmd
          when "log"
